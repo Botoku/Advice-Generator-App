@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+  background-color: hsl(217, 19%, 38%);
+  position: relative;
+  padding: 35px;
+}
+.advice{
+    color:hsla(0, 0%, 100%, 0.9);
+}
+.divider-img{
+    height: 20px;
+    background-image: url(images/pattern-divider-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 9px;
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+}
+.dice-container{
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    background-color: hsl(150, 100%, 66%);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dice-container:hover{
+    box-shadow: hsl(150, 100%, 66%) 5px 10px 10px, hsl(150, 100%, 66%) -5px 10px 10px;
+}
+.dice{
+    height: 20px
+}
